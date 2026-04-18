@@ -1,2 +1,2 @@
 # Calculadora-java
-PRimeiro projjeto com git e github pucpr
+Primeiro projeto com git e github pucpr
