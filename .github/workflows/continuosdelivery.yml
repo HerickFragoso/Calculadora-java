@@ -27,6 +27,6 @@ jobs:
       - uses: actions/downsload-artifact@v4
         with:
           name: projetozipado.zip
-      - name: Display structure of downloadded files
+      - name: Display structure of downloaded arquivos
         run: ls -R
 
