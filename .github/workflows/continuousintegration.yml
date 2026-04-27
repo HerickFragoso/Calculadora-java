@@ -24,3 +24,11 @@ jobs:
 
       - name: Rodar Checkstyle
         run: java -jar checkstyle-10.17.0-all.jar -c /google_checks.xml *.java
+
+  buildx:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
