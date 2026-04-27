@@ -66,7 +66,7 @@ jobs:
           -X POST \
           -d '{
             "embeds": [{
-              "title": "🚀 Pipeline Executado com Sucesso",
+              "title": "🚀 Pipeline Executado com Suceso",
               "color": 5763719,
               "fields": [
                 {
