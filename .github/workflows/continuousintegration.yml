@@ -16,8 +16,8 @@ jobs:
           distribution: temurin
           java-version: 17
 
-      - name: Compilar
-        run: javac *.java
+      - name: Compilar aplicação
+        run: javac main.java Calculos.java
 
       - name: Baixar Checkstyle
         run: wget https://github.com/checkstyle/checkstyle/releases/download/checkstyle-10.17.0/checkstyle-10.17.0-all.jar
