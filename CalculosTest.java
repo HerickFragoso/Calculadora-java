@@ -22,8 +22,13 @@ public class CalculosTest {
     }
 
     @Test
-    void testeErrado() {
+    void testeSomarZero() {
         Calculos calc = new Calculos(0);
-        assertEquals(4, calc.somar(2,2));
+        assertEquals(4, calc.somar(0,2));
+    }
+    @Test
+    void testeSomarDoisNegativos() {
+        Calculos calc = new Calculos(0);
+        assertEquals(4, calc.somar(0,2));
     }
 }
