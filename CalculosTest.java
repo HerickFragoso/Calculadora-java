@@ -24,11 +24,11 @@ public class CalculosTest {
     @Test
     void testeSomarZero() {
         Calculos calc = new Calculos(0);
-        assertEquals(4, calc.somar(0,2));
+        assertEquals(2, calc.somar(0,2));
     }
     @Test
     void testeSomarDoisNegativos() {
         Calculos calc = new Calculos(0);
-        assertEquals(4, calc.somar(0,2));
+        assertEquals(-3, calc.somar(-1,-2));
     }
 }
